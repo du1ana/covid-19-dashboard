@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - SL COVID-19 Dashboard</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1 id="title">Sri Lankan COVID-19 Dashboard</h1>
+
+
+
+<div class="last_update">
+	<p>(Last Updated at
+		<span id="update_date_time">
+		</span>) </p>
+</div>
+
+<div class="cont">
+
+<div class="c1 tot">
+	<h3>Local Total Cases</h3>
+		<div class="d1" id="local_total_cases">
+		</div>
+</div>
+<div class="c1 new">
+	<h3>Local New Cases</h3>
+		<div class="d1" id="local_new_cases">
+		</div>
+</div>
+<div class="c1 active">
+	<h3>Local Active Cases</h3>
+		<div class="d1" id="local_active_cases">
+		</div>
+</div>
+
+<div class="c1 dead">
+	<h3>Local Deaths</h3>
+		<div class="d1" id="local_deaths">
+		</div>
+</div>
+
+<div class="c1 rec">
+	<h3>Local Recovered</h3>
+		<div class="d1" id="local_recovered">
+		</div>
+</div>
+</div>
+<div class="progress">
+	<h3>Local Recovery</h3>
+	<progress id="local_progress"></progress>
+</div>
+
+
+<div class="cont">
+
+<div class="c1 tot">
+	<h3>Global Total Cases</h3>
+		<div class="d1" id="global_total_cases">
+		</div>
+</div>
+
+<div class="c1 active">
+	<h3>Global Active Cases</h3>
+		<div class="d1" id="global_active_cases">
+		</div>
+</div>
+
+<div class="c1 dead">
+	<h3>Global Deaths</h3>
+		<div class="d1" id="global_deaths">
+		</div>
+</div>
+
+<div class="c1 rec">
+	<h3>Global Recovered</h3>
+		<div class="d1" id="global_recovered">
+		</div>
+</div>
+
+	
+</div>
+	
+<div class="progress">
+	<h3>Global Recovery</h3>
+	<progress id="global_progress"></progress>
+</div>
+
+<div id="tdiv">
+	<h3>Count of Individuals currently treated/observed at local hospitals</h3>
+		<div class="table_data" id="hospital_data">
+			<table>
+				<thead >
+					<th style="text-align:center;border-radius:7vw 0 0 7vw;">Hospital Name</th>
+					<th style="text-align:center">Sri Lankans</th>
+					<th style="text-align:center">Foreigners</th>
+					<th style="text-align:center;border-radius:0 7vw 7vw 0;">Total</th>
+				</thead>
+				<tbody id="hospital_tbody">
+				</tbody>
+			</table>
+		</div>
+</div>
+
+<footer>
+	<p align="center">Dulana Peiris &copy; 2020</p>
+</footer>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

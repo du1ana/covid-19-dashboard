@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body{
+	font-family:ubuntu;
+	color:white;
+	background: #870000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(0, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(0, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#title{
+	text-align:center;
+	margin:3rem 3rem 0 3rem;
+}
+
+.last_update{
+	text-align:center;
+	margin-top:-.1rem;
+	margin-bottom:3rem;
+}
+
+
+.c1{
+	display:inline-block;
+	margin:0.6rem 0.2rem;
+	padding:1rem 1rem 2rem 1rem;
+	min-width:160px;
+	height:100px;
+	border-radius:3rem;
+	//border-style:solid;
+	border-width:.1rem;
+	background-color:rgba(40,0,0,0.1);
+}
+
+
+
+h3{
+	font-size:1rem;
+	text-align:center;
+}
+.d1{
+	text-align:center;
+	font-size:3rem;
+}
+
+.progress{
+	display:block;
+	align:center;
+	padding:3rem 10%;
+	margin:4rem 0;
+	border-radius:3rem;
+	//border-style:solid;
+	border-width:.1rem;
+	background-color:rgba(40,0,0,0.1);
+	
+}
+
+.progress h3,#tdiv h3{
+	font-size:1.3rem;
+	display:block;
+	padding:.1rem;
+	margin-top:-1rem;
+}
+
+progress[value]{
+	margin:auto;
+	width:80vw;
+	height:1.5rem;
+	border:1rem;
+}
+
+#tdiv{
+	display:block;
+	margin-top:4rem;
+	text-align:center;
+}
+
+
+table{
+	display:inline-block;
+	align:center;
+}
+
+th,td{
+	padding:.5rem;
+	text-align:left;
+	background-color:rgba(40,0,0,0.1);
+}
+
+tr{
+	//background-color:#000;
+}
+
+
+.new div{
+	font-weight:bolder;
+	color: #ff7;
+}
+
+.active div{
+	font-weight:bolder;
+	color: #f77 ;
+}
+
+.tot div{
+	font-weight:bolder;
+	color: #77f;
+}
+
+.dead div{
+	font-weight:bolder;
+	color: #777 ;
+}
+.rec div{
+	font-weight:bolder;
+	color: #7f7 ;
+}
+
+
+
+
+.cont{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+}
+
+
+@media (max-width:550px){
+	body{
+		background: #600000;
+	}
+	.c1{
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+		padding:1rem;
+		margin:.1rem;
+		border-radius:2rem;
+		width:100%;
+		height:40px;
+	}
+	.c1 h3, .d1{
+		padding:0;
+		margin:0;
+		display:inline;
+		font-size:20px;
+	}
+	.d1{
+		font-size:30px;
+		text-align:right;
+		margin-right:1rem;
+	}
+}
+
+footer{
+	width:100%;
+	padding-top:2rem;
+	display:block;
+}
