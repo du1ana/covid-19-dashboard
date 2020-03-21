@@ -14,6 +14,9 @@ fetch('https://hpb.health.gov.lk/api/get-current-statistical')
 	
 	
 
+
+		
+document.getElementById("update_date_time").innerHTML=sldata.update_date_time;
 		
 document.getElementById("local_new_cases").innerHTML=sldata.local_new_cases.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 		
